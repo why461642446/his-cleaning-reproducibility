@@ -1,0 +1,25 @@
+{
+  "title": "HIS Cleaning Reproducibility Package",
+  "upload_type": "software",
+  "version": "1.0.1",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Wang, Haoyi",
+      "orcid": "0009-0005-4339-493X"
+    },
+    {
+      "name": "Jung, MinPo",
+      "orcid": "0009-0003-3369-757X"
+    }
+  ],
+  "description": "Frozen cleaning implementation, configuration-driven wrappers, aggregate evidence, and reproducibility utilities for a safety-aware heterogeneous hospital-information-system data-cleaning study. No MIMIC-IV data or patient-level derivatives are included.",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23209036",
+      "relation": "requires",
+      "resource_type": "dataset"
+    }
+  ]
+}

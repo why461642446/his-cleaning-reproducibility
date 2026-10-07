@@ -1,4 +1,4 @@
-# HIS Cleaning reproducibility release candidate
+# HIS Cleaning reproducibility package
 
 This is the public code package for the frozen FULL_FRAMEWORK_V3 study. It contains code, non-patient-level aggregate results, small audit evidence, and SHA-256 inventories. It contains no MIMIC-IV data, no patient-level records, no credentials, and no raw synthetic benchmark tables.
 
@@ -35,16 +35,18 @@ python release_wrapper/run_frozen_v3_from_config.py --config local_config.json
 
 Record the Python version, operating system, command, elapsed time, output SHA-256 values, and any discrepancy in a new smoke-test report. The expected seed-42 / rate-5 module action totals and eight-file SHA-256 comparison procedure are documented in `SMOKE_TEST_RESULT_20260925.md`.
 
-## Release limitations
+## Release status and limitations
 
-Before public release, complete a clean-machine smoke test, verify the public
-manifest, replace all DOI/URL placeholders, create a tagged GitHub release,
-and archive the software release through Zenodo. The synthetic dataset should
-be deposited as a separate Zenodo dataset record.
+The synthetic dataset is archived at Zenodo under DOI
+`10.5281/zenodo.23209036`. A clean-machine smoke test and a tagged software
+release remain separate release-engineering checks; they do not change the
+reported experimental results. The restricted MIMIC-IV arm cannot be
+reproduced from this public package alone and requires independently approved
+PhysioNet access.
 
 ## Licensing
 
 Software in this repository is released under the MIT License. The separately
-deposited synthetic benchmark is intended for CC BY 4.0 after upstream-license
-confirmation. MIMIC-IV remains governed solely by its applicable PhysioNet
-access and data-use terms and is not redistributed here.
+deposited synthetic benchmark is released under CC BY 4.0. MIMIC-IV remains
+governed solely by its applicable PhysioNet access and data-use terms and is
+not redistributed here.

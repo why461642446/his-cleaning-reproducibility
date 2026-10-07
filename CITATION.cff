@@ -7,10 +7,16 @@ date-released: 2026-10-07
 authors:
   - family-names: Wang
     given-names: Haoyi
+    orcid: "https://orcid.org/0009-0005-4339-493X"
   - family-names: Jung
     given-names: MinPo
+    orcid: "https://orcid.org/0009-0003-3369-757X"
 license: MIT
 repository-code: "https://github.com/why461642446/his-cleaning-reproducibility"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23209036"
+    description: "Synthetic benchmark dataset"
 abstract: >-
   Reproducibility code, frozen configurations, aggregate evidence, and
   permitted synthetic-data workflows for a safety-aware heterogeneous HIS

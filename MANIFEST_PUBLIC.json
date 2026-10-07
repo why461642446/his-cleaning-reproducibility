@@ -1,14 +1,19 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "package_type": "public_code",
-  "generated_utc": "2026-10-07T09:46:00.7469130Z",
+  "generated_utc": "2026-10-07T13:45:10.554330Z",
   "contains_mimic_data": false,
-  "file_count": 54,
+  "file_count": 56,
   "files": [
     {
       "path": ".gitignore",
       "size_bytes": 104,
       "sha256": "46c6f8f77423a60a53401d0c9aa116229577c53f9bfb145e628852efe5c44343"
+    },
+    {
+      "path": ".zenodo.json",
+      "size_bytes": 758,
+      "sha256": "117e890c997004bab71660569f02b1b09248908e19502a4cb7484797f20b5696"
     },
     {
       "path": "BASELINE_REPRODUCIBILITY_LIMITATIONS.md",
@@ -82,13 +87,13 @@
     },
     {
       "path": "CITATION.cff",
-      "size_bytes": 629,
-      "sha256": "875b0ea35d8fafabe5c264775c17a5e31e422ee7487e6f43e8694fba5d70e556"
+      "size_bytes": 842,
+      "sha256": "b9a7336289fa9560b92a578d82d43d06d111228aaeded219083b999dde781570"
     },
     {
       "path": "DATA_LICENSE.md",
-      "size_bytes": 395,
-      "sha256": "68a682f95d4b808d2017a33caf06749106079dc74d59972188fa1b3190c31421"
+      "size_bytes": 244,
+      "sha256": "c55be6f568117bf7b2d3cf63831f20646b7562d1ad2ab7a3a413b5eb62049d3b"
     },
     {
       "path": "evaluation/evaluate_his_v1_3_phase4a6_final_v3_fixed.py",
@@ -217,13 +222,18 @@
     },
     {
       "path": "PUBLIC_RELEASE_CHECKLIST.md",
-      "size_bytes": 1578,
-      "sha256": "6f4801a4a9dc1dc10021824f1bd5aed2da3cb07ef85b5213e13ba7463be0291b"
+      "size_bytes": 1515,
+      "sha256": "5255e680bffff606ed2991c7f11e242593956e03bf546b000baf91dc4686f566"
     },
     {
       "path": "README.md",
-      "size_bytes": 3174,
-      "sha256": "806fec6dc32975044c3c0fe8f1bac4d7f82cbc72c1039a6e8f4f09971746b60b"
+      "size_bytes": 3226,
+      "sha256": "f7f00b45ce03c2bb94217a5de109f92bd0d009f0757b8a51389f88e3e91c3486"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.0.1.md",
+      "size_bytes": 803,
+      "sha256": "eb521d88f9df8e138bb5dc94c7e6c551b4f86e61beaa43f6264f97e93538d762"
     },
     {
       "path": "release_wrapper/config.example.json",
@@ -267,8 +277,8 @@
     },
     {
       "path": "ZENODO_DATASET_METADATA.md",
-      "size_bytes": 1326,
-      "sha256": "38fba1b02cb44a70e1ddc8cae10014ed19f84ed86ae25609e51075846c12463e"
+      "size_bytes": 1580,
+      "sha256": "2befa5bd6e00b59ef8a242b224d0967c6cd5c1af4e6977f29a7e9a371b99cfba"
     },
     {
       "path": "ZENODO_SYNTHETIC_DATA_SHA256.csv",
