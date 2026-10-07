@@ -3,7 +3,7 @@
 This is the public code package for the frozen FULL_FRAMEWORK_V3 study. It contains code, non-patient-level aggregate results, small audit evidence, and SHA-256 inventories. It contains no MIMIC-IV data, no patient-level records, no credentials, and no raw synthetic benchmark tables.
 
 The permitted synthetic benchmark tables are distributed separately as a
-versioned Zenodo dataset: [10.5281/zenodo.23209036](https://doi.org/10.5281/zenodo.23209036).
+versioned Zenodo dataset: [10.5281/zenodo.23214371](https://doi.org/10.5281/zenodo.23214371).
 
 ## What this package can reproduce
 
@@ -38,7 +38,7 @@ Record the Python version, operating system, command, elapsed time, output SHA-2
 ## Release status and limitations
 
 The synthetic dataset is archived at Zenodo under DOI
-`10.5281/zenodo.23209036`, and this software package is tagged as `v1.0.1` on
+`10.5281/zenodo.23214371`, and this software package is tagged as `v1.0.1` on
 GitHub. A clean-machine smoke test and Zenodo archival of the software release
 remain separate release-engineering checks; they do not change the reported
 experimental results. The restricted MIMIC-IV arm cannot be reproduced from

@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
   "package_type": "public_code",
-  "generated_utc": "2026-10-07T14:02:56.065760Z",
+  "generated_utc": "2026-10-07T14:16:47.824391Z",
   "contains_mimic_data": false,
   "file_count": 56,
   "files": [
@@ -13,7 +13,7 @@
     {
       "path": ".zenodo.json",
       "size_bytes": 758,
-      "sha256": "117e890c997004bab71660569f02b1b09248908e19502a4cb7484797f20b5696"
+      "sha256": "6668e1f9d365e01428895ce0afcf7c577ef9795dc457d7133a873cfe51297061"
     },
     {
       "path": "BASELINE_REPRODUCIBILITY_LIMITATIONS.md",
@@ -88,7 +88,7 @@
     {
       "path": "CITATION.cff",
       "size_bytes": 842,
-      "sha256": "b9a7336289fa9560b92a578d82d43d06d111228aaeded219083b999dde781570"
+      "sha256": "b34c5d780b5c384cb1e52ce067d3eae012b42071b64f96acd336c24a4606ce71"
     },
     {
       "path": "DATA_LICENSE.md",
@@ -222,13 +222,13 @@
     },
     {
       "path": "PUBLIC_RELEASE_CHECKLIST.md",
-      "size_bytes": 1773,
-      "sha256": "e0ab0d3cc63fa53c7c7dbcee7f801c12bb9136278ba25c5e01aadf5ae593740b"
+      "size_bytes": 1759,
+      "sha256": "34f80d0354c742f8a8d5ccc03940ace323e97f889dadd4ec6fd42d6e2d6af029"
     },
     {
       "path": "README.md",
       "size_bytes": 3299,
-      "sha256": "487cece3e0d32494e846c7fdb6ee0f0a57c730e9fb00ba827e0c5ecd64e76ae4"
+      "sha256": "2d5dbfd23f05e9fe223e2b87510bc4589bdd3eefd7ff5fa043e3750206f06656"
     },
     {
       "path": "RELEASE_NOTES_v1.0.1.md",

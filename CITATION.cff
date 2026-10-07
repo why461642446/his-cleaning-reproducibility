@@ -15,7 +15,7 @@ license: MIT
 repository-code: "https://github.com/why461642446/his-cleaning-reproducibility"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.23209036"
+    value: "10.5281/zenodo.23214371"
     description: "Synthetic benchmark dataset"
 abstract: >-
   Reproducibility code, frozen configurations, aggregate evidence, and
