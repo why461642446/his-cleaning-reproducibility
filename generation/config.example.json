@@ -1,0 +1,5 @@
+{
+  "benchmark_parent": "C:/path/to/parent-containing-HIS_Synthetic_Dataset_V1_3_REALITY_CALIBRATED",
+  "seeds": [42],
+  "rates": [5]
+}

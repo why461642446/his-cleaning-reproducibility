@@ -1,0 +1,3 @@
+﻿method,Precision_mean,Precision_sd,Recall_mean,Recall_sd,F1_mean,F1_sd,review_burden_per_1000_mean,review_burden_per_1000_sd
+Always-flag,0.2869477911646586,0.007618623146903777,1.0,0.0,0.4458918277143268,0.009201221010102158,1000.0,0.0
+No-op,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

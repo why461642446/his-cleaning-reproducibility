@@ -1,0 +1,279 @@
+{
+  "version": "1.0.0",
+  "package_type": "public_code",
+  "generated_utc": "2026-10-07T09:30:25.0060753Z",
+  "contains_mimic_data": false,
+  "file_count": 54,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 104,
+      "sha256": "46c6f8f77423a60a53401d0c9aa116229577c53f9bfb145e628852efe5c44343"
+    },
+    {
+      "path": "BASELINE_REPRODUCIBILITY_LIMITATIONS.md",
+      "size_bytes": 729,
+      "sha256": "e3901c4f1839d077d34b342be636f6d31e116d8d8d13796eea5afef1cbf1b983"
+    },
+    {
+      "path": "baselines/config.example.json",
+      "size_bytes": 183,
+      "sha256": "e9bd6fc79f96e9645b75d858557688e5f5286c91ad79b9dd33a63ce2e4b2a5b4"
+    },
+    {
+      "path": "baselines/results/baran_repair_aggregate.csv",
+      "size_bytes": 668,
+      "sha256": "11b0a28f8b1424a4623da9263f88ed544aab370f5fad20e31d17072c1c57c0b5"
+    },
+    {
+      "path": "baselines/results/baran_repair_per_seed.csv",
+      "size_bytes": 1574,
+      "sha256": "f8a987c255a550c8a1464b50647e497a064e47759d6afb2d86cc048339038d4a"
+    },
+    {
+      "path": "baselines/results/direct_lookup_aggregate.csv",
+      "size_bytes": 117,
+      "sha256": "6cd76eae175f3874508f2d8a26b2d4366d04e4c8178c93fb0ff0249199b3ff33"
+    },
+    {
+      "path": "baselines/results/raha_detection_aggregate.csv",
+      "size_bytes": 2580,
+      "sha256": "5833588fc815bcdea4325ca8cc808266bc08be3f738a662aa7c6ded923182996"
+    },
+    {
+      "path": "baselines/results/sensitivity_aggregate.csv",
+      "size_bytes": 280,
+      "sha256": "a67f51c86f5853317c296f2944c49f470245ff13425484163f6fbbd2caaf655f"
+    },
+    {
+      "path": "baselines/scripts/aggregate_baran_repair_preflight.py",
+      "size_bytes": 2645,
+      "sha256": "d71f2c1445878a16dc8e579e7f4a65bbee864aa8e5a2bf208b9a65df0751def7"
+    },
+    {
+      "path": "baselines/scripts/run_baran_repair_preflight.py",
+      "size_bytes": 5910,
+      "sha256": "601a44345365c27363c4909e3c3ea5b1223951916a80b6279bcceef2290c7774"
+    },
+    {
+      "path": "baselines/scripts/run_design_sensitivity_baselines.py",
+      "size_bytes": 3793,
+      "sha256": "4da20cf2a3b595df6060845ad1ce72ef5b9b2c866758f4df741d568259389b78"
+    },
+    {
+      "path": "baselines/scripts/run_direct_code_lookup_baseline.py",
+      "size_bytes": 4290,
+      "sha256": "818d8a2f81df168a3b7a58dd48accdd0fc957334e10b669ade3836c60b46d9ab"
+    },
+    {
+      "path": "baselines/scripts/run_fair_baselines_from_config.py",
+      "size_bytes": 5465,
+      "sha256": "b33015b017319c4df9f1bbe5f6d7ee3c4d198b51717d7a110c165e30a02c6d59"
+    },
+    {
+      "path": "baselines/scripts/run_raha_diagnosis_detection_pilot.py",
+      "size_bytes": 8766,
+      "sha256": "d887b5e808254cf941bce74dcf9695d8b5ccbfa8c206ab31683643cdc0d1badf"
+    },
+    {
+      "path": "baselines/scripts/score_v3_on_raha_pilot_samples.py",
+      "size_bytes": 2857,
+      "sha256": "5cb325d6a11ff36712fb3ab05f50b98ea745f913556750589ecf75a9889aaa04"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 629,
+      "sha256": "875b0ea35d8fafabe5c264775c17a5e31e422ee7487e6f43e8694fba5d70e556"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "size_bytes": 395,
+      "sha256": "68a682f95d4b808d2017a33caf06749106079dc74d59972188fa1b3190c31421"
+    },
+    {
+      "path": "evaluation/evaluate_his_v1_3_phase4a6_final_v3_fixed.py",
+      "size_bytes": 40876,
+      "sha256": "48a785de8d17fe1bf6419ab44476ed4b3bcd34e0fe44e4128c691d810b133874"
+    },
+    {
+      "path": "evidence/Frozen_HELDOUT_Generator_Specification_and_Integrity_Audit_v1.md",
+      "size_bytes": 4070,
+      "sha256": "8bfb9f3f5bed818c9e4e26d40743f5de8344d8a61dd3ac9ee27e67f0960253f0"
+    },
+    {
+      "path": "evidence/FULL_FRAMEWORK_V3_End_to_End_Scalability_Run_Detail.csv",
+      "size_bytes": 864,
+      "sha256": "d11b21868e343d075986a2357282db5c24b0480aa1a37336aa844e176e1e12e2"
+    },
+    {
+      "path": "evidence/FULL_FRAMEWORK_V3_End_to_End_Scalability_Summary.csv",
+      "size_bytes": 829,
+      "sha256": "4ef0a02af8c439a02d9f1f5f16dec5f4778f8f84ea66f0599c7d4436ae0dd313"
+    },
+    {
+      "path": "evidence/K1_Frozen_Coverage_and_Transformation_Audit_v1.md",
+      "size_bytes": 8899,
+      "sha256": "d4cac99eff04e224608dc855c96312375c9febead60532af6a314a68067e49dd"
+    },
+    {
+      "path": "evidence/K1_OOD_Lexical_Multi_Transformation_Result_v1.md",
+      "size_bytes": 2950,
+      "sha256": "54b691a00da565abb15df8ca8afa14fd9c39a2b3dd1f22eb75bd7d780d041471"
+    },
+    {
+      "path": "evidence/K2_Synthetic_MIMIC_Demo_Comparability_Crosswalk_v1.md",
+      "size_bytes": 6318,
+      "sha256": "ee5281aee60b5bb63935f2d6c8ef889826119bba7b322c6ece366c47ef54139f"
+    },
+    {
+      "path": "evidence/K6_HoloClean_Knowledge_Parity_Dev_Feasibility_v1.md",
+      "size_bytes": 3094,
+      "sha256": "4839e26fcd196f04f9ab93e4c55647944bd1e7861f74ff6e41fad0e28ec1daf4"
+    },
+    {
+      "path": "evidence/MIMIC_HELDOUT_V14_FINAL_acceptance_report.json",
+      "size_bytes": 1254,
+      "sha256": "904d7e01ad8ced1b48250b983f61a2b66edc7b2a41f0c081070d466c1f973026"
+    },
+    {
+      "path": "frozen_v3/run_phase4c4_full_framework_v3_final_rates_v1_3.py",
+      "size_bytes": 53025,
+      "sha256": "2d9ddd764056c2c54ed10c1f66f3715e6ccdabff49512c764f4e161d6d0f7c50"
+    },
+    {
+      "path": "generation/accepted_seed42_rate05_hashes.csv",
+      "size_bytes": 688,
+      "sha256": "b0a00211a2aafe4d531d3291b4a4ac56493cd2fb5e1b2895d1ec533e10479e9c"
+    },
+    {
+      "path": "generation/config.example.json",
+      "size_bytes": 141,
+      "sha256": "8907df0566a57e8c4e24e721415d79c5a6d3daff66d24b832187c14351e3c81c"
+    },
+    {
+      "path": "generation/generate_phase3f4_heldout_final_test_all_conditions_v1_3.py",
+      "size_bytes": 41360,
+      "sha256": "1278379e0946d25b1bd093508494aa5e982f5921d722f6fd52f0b4c042e73f43"
+    },
+    {
+      "path": "generation/run_phase3_generator_from_config.py",
+      "size_bytes": 1539,
+      "sha256": "54a23c7455624d46f986339fe652c918ea2c52afb46c8c4fbf71e84155e00c32"
+    },
+    {
+      "path": "generation/verify_phase3_condition_hashes.py",
+      "size_bytes": 1015,
+      "sha256": "64a7aecf838322fed65591df770a042207a4c5e97aa1877beccdf3ca5479dd9b"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1082,
+      "sha256": "37b9c80339905aef4146aeb90ddf7ecbce2af63818d8eba8d240403b309a07b9"
+    },
+    {
+      "path": "mimic/evaluate_mimic_injected_condition.py",
+      "size_bytes": 4392,
+      "sha256": "8646bbe7fe59dc1ac0923c1378da131f574f531ef93b818faa78c1f99b81e5e2"
+    },
+    {
+      "path": "mimic/materialize_mimic_debug_condition.py",
+      "size_bytes": 12320,
+      "sha256": "f4394688b4c2f4812d86da6145529a20e4347888d61edb690afdb7e428034347"
+    },
+    {
+      "path": "mimic/plan_mimic_debug_injections.py",
+      "size_bytes": 6663,
+      "sha256": "5f76e2b501508ae250d99febe1d6988a440497ef0e6093101f6fbf7ef38ac465"
+    },
+    {
+      "path": "mimic/run_frozen_v3_mimic_path_adapter_v1_3_medlex_na.py",
+      "size_bytes": 52389,
+      "sha256": "d278c793a38ad79660a4600d30b00a00f15d150e967517672a84ac9266adb43f"
+    },
+    {
+      "path": "NOTICE_MIMIC_RESTRICTED_DATA.md",
+      "size_bytes": 400,
+      "sha256": "31944fcc6cf7290e352e75e326361c5adb1ad0f021597d733a8f6a143f0e3fce"
+    },
+    {
+      "path": "ood/evaluate_v3_ood_isolated.py",
+      "size_bytes": 41194,
+      "sha256": "f30f67080cbd30ddaa8e0294d3f27758c0643ca0c3090229b0281e572cfb0425"
+    },
+    {
+      "path": "ood/materialize_ood_lex_multi_01.py",
+      "size_bytes": 5281,
+      "sha256": "4572a59c44ef806c2594b48fd928de46931a139bc4f330b1cb51367d88640ed9"
+    },
+    {
+      "path": "ood/run_and_evaluate_ood_lex_multi_01.py",
+      "size_bytes": 2367,
+      "sha256": "53bf733df32fdb839049cb8e4d4cd4bdc6ece788f4c127fa40a973fd1a0c1a3f"
+    },
+    {
+      "path": "ood/run_frozen_v3_isolated.py",
+      "size_bytes": 52727,
+      "sha256": "0e0b2327125d01c59b192daf67a5b5edb7cb805b6b6b93bab8544a9549259b0e"
+    },
+    {
+      "path": "PUBLIC_RELEASE_CHECKLIST.md",
+      "size_bytes": 1585,
+      "sha256": "7b6fa6a9cebec0d8fafef413f61b95483b9b62d9aa0664763bb997befdf75c88"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3190,
+      "sha256": "62ae302eb6b4e2d9771ff1df0323b3243b776e543904f5798368b2aa794fdd0b"
+    },
+    {
+      "path": "release_wrapper/config.example.json",
+      "size_bytes": 130,
+      "sha256": "b64940709f83f4e03416c50864751a4325fc4e4fcc44eb78f7be27f46bd2b7bf"
+    },
+    {
+      "path": "release_wrapper/README.md",
+      "size_bytes": 676,
+      "sha256": "12bb0c8748877e5247b68d10fb0b4ea1d5c8e019d7328a3d167ae96fb8e41805"
+    },
+    {
+      "path": "release_wrapper/run_frozen_v3_from_config.py",
+      "size_bytes": 2295,
+      "sha256": "1970938c4ca0e706f66cd8691ddbfd05052c513a74f2fd71eb17f197ae86a99f"
+    },
+    {
+      "path": "requirements-public.txt",
+      "size_bytes": 733,
+      "sha256": "e2a2d3a86a54e294787c208fef4355b1633b3ecfc5afb73a340ee47fcbefc08a"
+    },
+    {
+      "path": "scalability/materialize_patient_scale_inputs.py",
+      "size_bytes": 3716,
+      "sha256": "d8b3db189df773f9dd068faa1e1a517c2dabe908cd2b90db9fc7ac62773ed324"
+    },
+    {
+      "path": "scalability/run_frozen_v3_scale_adapter.py",
+      "size_bytes": 4638,
+      "sha256": "2e7a4edd87b68a2711d372035e853bc06c2de418a29521d987fae42b1d1cccf2"
+    },
+    {
+      "path": "SMOKE_TEST_PROTOCOL.md",
+      "size_bytes": 1709,
+      "sha256": "387ec7d41dfda55178d3d290c4e602acb5b249a103f3169d9c8616b5e296a136"
+    },
+    {
+      "path": "SMOKE_TEST_RESULT_20260925.md",
+      "size_bytes": 1878,
+      "sha256": "1d1441cb73fbfae0399e55c14a608a7f310859b865912188d63d9f5e14a32355"
+    },
+    {
+      "path": "ZENODO_DATASET_METADATA.md",
+      "size_bytes": 1326,
+      "sha256": "38fba1b02cb44a70e1ddc8cae10014ed19f84ed86ae25609e51075846c12463e"
+    },
+    {
+      "path": "ZENODO_SYNTHETIC_DATA_SHA256.csv",
+      "size_bytes": 18315,
+      "sha256": "f9ec39aa27a76b97dbc76d9ec2501916bf95012b0a2097624460c70234d4cb54"
+    }
+  ]
+}

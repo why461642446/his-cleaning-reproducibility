@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release."
+title: "HIS Cleaning Reproducibility Package"
+type: software
+version: 1.0.0
+date-released: 2026-10-07
+authors:
+  - family-names: Wang
+    given-names: Haoyi
+  - family-names: Jung
+    given-names: MinPo
+license: MIT
+repository-code: "https://github.com/why461642446/his-cleaning-reproducibility"
+abstract: >-
+  Reproducibility code, frozen configurations, aggregate evidence, and
+  permitted synthetic-data workflows for a safety-aware heterogeneous HIS
+  data-cleaning study. No MIMIC-IV data or patient-level derivatives are
+  included.

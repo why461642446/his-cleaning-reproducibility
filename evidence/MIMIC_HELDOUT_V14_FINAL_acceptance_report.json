@@ -1,0 +1,22 @@
+{
+  "panel": "MIMIC Demo External Validation HELDOUT v1.4 final run",
+  "conditions_expected": 75,
+  "conditions_observed": 75,
+  "missing_conditions": [],
+  "unexpected_conditions": [],
+  "gates": {
+    "all_75_expected_conditions_present": true,
+    "every_condition_has_injected_events": true,
+    "technical_medication_ids_unique": true,
+    "medication_lexical_dimension_restricted": true
+  },
+  "acceptance_status": "PASS",
+  "important_interpretation": "Unlinked natural-data actions are not classified as false positives by this audit; they require separate clinical review. DEBUG scores are not used to retune frozen V3.",
+  "file_sha256": {
+    "mimic/run_mimic_debug_v13.py": "e7d5cc6c4a1df712980d338047e4715854ecdcc88e6d3c052bec565f3219e32b",
+    "mimic/materialize_mimic_debug_condition.py": "f4394688b4c2f4812d86da6145529a20e4347888d61edb690afdb7e428034347",
+    "mimic/evaluate_mimic_injected_condition.py": "8646bbe7fe59dc1ac0923c1378da131f574f531ef93b818faa78c1f99b81e5e2",
+    "mimic/plan_mimic_debug_injections.py": "5f76e2b501508ae250d99febe1d6988a440497ef0e6093101f6fbf7ef38ac465",
+    "mimic/run_frozen_v3_mimic_path_adapter_v1_3_medlex_na.py": "d278c793a38ad79660a4600d30b00a00f15d150e967517672a84ac9266adb43f"
+  }
+}

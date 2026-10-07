@@ -1,0 +1,17 @@
+﻿metric,mean,sample_sd,minimum,maximum
+seed,242.0,158.11388300841898,42.0,442.0
+rate,20.0,0.0,20.0,20.0
+label_budget,20.0,0.0,20.0,20.0
+scored_unlabelled_rows,4980.0,0.0,4980.0,4980.0
+truth_error_rows,1435.8,39.251751553274666,1382.0,1489.0
+predicted_repairs,0.0,0.0,0.0,0.0
+TP_detection,0.0,0.0,0.0,0.0
+FP_detection,0.0,0.0,0.0,0.0
+FN_detection,1435.8,39.251751553274666,1382.0,1489.0
+detection_precision,0.0,0.0,0.0,0.0
+detection_recall,0.0,0.0,0.0,0.0
+detection_F1,0.0,0.0,0.0,0.0
+correct_repairs,0.0,0.0,0.0,0.0
+repair_precision_all_predictions,0.0,0.0,0.0,0.0
+repair_recall_truth_errors,0.0,0.0,0.0,0.0
+labelled_injected_errors,0.0,0.0,0.0,0.0
