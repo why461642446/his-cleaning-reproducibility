@@ -19,8 +19,8 @@
 - [ ] Run the documented smoke test in a fresh environment.
 - [x] Create a public GitHub repository and replace the repository placeholder
       in `CITATION.cff`.
-- [ ] Create a separate Zenodo dataset draft, upload the synthetic archive,
-      reserve a DOI, and replace the dataset DOI placeholder in `README.md`.
+- [ ] Complete the separate Zenodo dataset upload and publish it. DOI
+      `10.5281/zenodo.23209036` has been reserved and added to `README.md`.
 - [ ] Create GitHub tag `v1.0.0` and archive that software release in Zenodo.
 - [ ] Add the final software and dataset citations to the manuscript.
 

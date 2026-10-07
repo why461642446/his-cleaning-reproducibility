@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "package_type": "public_code",
-  "generated_utc": "2026-10-07T09:30:25.0060753Z",
+  "generated_utc": "2026-10-07T09:46:00.7469130Z",
   "contains_mimic_data": false,
   "file_count": 54,
   "files": [
@@ -217,13 +217,13 @@
     },
     {
       "path": "PUBLIC_RELEASE_CHECKLIST.md",
-      "size_bytes": 1585,
-      "sha256": "7b6fa6a9cebec0d8fafef413f61b95483b9b62d9aa0664763bb997befdf75c88"
+      "size_bytes": 1578,
+      "sha256": "6f4801a4a9dc1dc10021824f1bd5aed2da3cb07ef85b5213e13ba7463be0291b"
     },
     {
       "path": "README.md",
-      "size_bytes": 3190,
-      "sha256": "62ae302eb6b4e2d9771ff1df0323b3243b776e543904f5798368b2aa794fdd0b"
+      "size_bytes": 3174,
+      "sha256": "806fec6dc32975044c3c0fe8f1bac4d7f82cbc72c1039a6e8f4f09971746b60b"
     },
     {
       "path": "release_wrapper/config.example.json",
