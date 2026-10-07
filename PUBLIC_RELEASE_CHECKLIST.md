@@ -21,7 +21,11 @@
       in `CITATION.cff`.
 - [x] Publish the separate Zenodo dataset as version 1.0.0 under DOI
       `10.5281/zenodo.23209036` and add it to `README.md`.
-- [ ] Create GitHub tag `v1.0.1` and archive that software release in Zenodo.
+- [x] Create and publish GitHub tag and release `v1.0.1`.
+- [ ] Archive the software release in Zenodo and add its software DOI after
+      verifying the GitHub–Zenodo import.
+- [ ] Publish the Zenodo dataset maintenance version `1.0.1`; the draft retains
+      unchanged data archives and awaits two replacement documentation files.
 - [x] Add the public repository and dataset DOI to manuscript version 26.
 
 ## Never publish

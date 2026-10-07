@@ -38,11 +38,12 @@ Record the Python version, operating system, command, elapsed time, output SHA-2
 ## Release status and limitations
 
 The synthetic dataset is archived at Zenodo under DOI
-`10.5281/zenodo.23209036`. A clean-machine smoke test and a tagged software
-release remain separate release-engineering checks; they do not change the
-reported experimental results. The restricted MIMIC-IV arm cannot be
-reproduced from this public package alone and requires independently approved
-PhysioNet access.
+`10.5281/zenodo.23209036`, and this software package is tagged as `v1.0.1` on
+GitHub. A clean-machine smoke test and Zenodo archival of the software release
+remain separate release-engineering checks; they do not change the reported
+experimental results. The restricted MIMIC-IV arm cannot be reproduced from
+this public package alone and requires independently approved PhysioNet
+access.
 
 ## Licensing
 
