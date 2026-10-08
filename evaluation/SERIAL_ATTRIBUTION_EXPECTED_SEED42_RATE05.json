@@ -1,0 +1,23 @@
+{
+  "condition": "seed_42_corruption_05",
+  "evaluator": "evaluate_his_v1_3_phase4a6_final_v3_serial_attribution_fixed.py",
+  "evaluator_sha256": "58bedfc98ca9b7a375a558d0423bd682432b165ba4907d056fac128c7a55f918",
+  "metrics": {
+    "TP": 106698.0,
+    "FP": 8716.0,
+    "FN": 53350.0,
+    "Precision": 0.9244805656159565,
+    "Recall": 0.6666625012496251,
+    "F1": 0.7746839854498987,
+    "CorrectEdits": 161236.0,
+    "IncorrectEdits": 1.0,
+    "EditPrecision": 0.9999937979496022,
+    "FCR": 6.202050397861533e-06,
+    "NER": 0.0,
+    "PostCleanCellAcc": 0.7172521360562873,
+    "AbstentionRate": 0.0,
+    "FlagSafety": 1.0,
+    "DupRecall": 0.0,
+    "RecoveryAcc": 0.5052558969514298
+  }
+}

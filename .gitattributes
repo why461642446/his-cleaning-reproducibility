@@ -1,0 +1,7 @@
+# Keep ordinary repository text deterministic across Windows and Unix checkouts.
+* text=auto eol=lf
+
+# Preserve byte-exact audited artifacts required by the release checks.
+frozen_v3/run_phase4c4_full_framework_v3_final_rates_v1_3.py binary
+evaluation/evaluate_his_v1_3_phase4a6_final_v3_serial_attribution_fixed.py binary
+*.pdf binary

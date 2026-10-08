@@ -8,8 +8,9 @@ versioned Zenodo dataset: [10.5281/zenodo.23214371](https://doi.org/10.5281/zeno
 ## What this package can reproduce
 
 1. A synthetic-data smoke test of the frozen V3 cleaner through `release_wrapper/run_frozen_v3_from_config.py`.
-2. Inspection of the retained generator, evaluator, OOD utilities, and MIMIC injection/adapter code.
-3. A configuration-driven reconstruction of the restricted five-seed fairness-baseline arm through `baselines/scripts/run_fair_baselines_from_config.py`.
+2. Re-evaluation with the manuscript's serial-action-attribution evaluator at `evaluation/evaluate_his_v1_3_phase4a6_final_v3_serial_attribution_fixed.py`.
+3. Inspection of the retained generator, legacy evaluator, OOD utilities, and MIMIC injection/adapter code.
+4. A configuration-driven reconstruction of the restricted five-seed fairness-baseline arm through `baselines/scripts/run_fair_baselines_from_config.py`.
 
 ## What this package cannot by itself reproduce
 
@@ -35,11 +36,13 @@ python release_wrapper/run_frozen_v3_from_config.py --config local_config.json
 
 Record the Python version, operating system, command, elapsed time, output SHA-256 values, and any discrepancy in a new smoke-test report. The expected seed-42 / rate-5 module action totals and eight-file SHA-256 comparison procedure are documented in `SMOKE_TEST_RESULT_20260925.md`.
 
+After the cleaner completes, use the serial-attribution evaluator for metrics reported in the current manuscript. The older `evaluate_his_v1_3_phase4a6_final_v3_fixed.py` is retained only to reproduce the pre-correction evaluation record. Expected corrected seed-42 / rate-5 metrics are recorded in `evaluation/SERIAL_ATTRIBUTION_EXPECTED_SEED42_RATE05.json`.
+
 ## Release status and limitations
 
 The synthetic dataset is archived at Zenodo under DOI
-`10.5281/zenodo.23214371`, and this software package is tagged as `v1.0.1` on
-GitHub. A clean-machine smoke test and Zenodo archival of the software release
+`10.5281/zenodo.23214371`, and this corrective software package is prepared as
+`v1.0.2`. A clean-machine smoke test and Zenodo archival of the software release
 remain separate release-engineering checks; they do not change the reported
 experimental results. The restricted MIMIC-IV arm cannot be reproduced from
 this public package alone and requires independently approved PhysioNet
